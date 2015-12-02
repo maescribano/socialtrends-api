@@ -1,1 +1,0 @@
-# socialtrends-api
