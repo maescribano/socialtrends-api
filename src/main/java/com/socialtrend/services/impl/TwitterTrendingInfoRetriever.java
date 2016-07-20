@@ -24,7 +24,6 @@ public class TwitterTrendingInfoRetriever extends TrendingInfoRetriever{
 
 	
 	@Autowired
-	@Qualifier("twitterHttpConnectionManager")
 	private SocialHttpConnectionManager twitterHttpConnectionManager;
 	
 	

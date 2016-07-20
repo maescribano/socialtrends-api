@@ -19,7 +19,6 @@ import com.socialtrend.services.SocialHttpConnectionManager;
 import com.socialtrend.utils.HttpUtils;
 
 @Service
-@Qualifier("twitterHttpConnectionManager")
 public class TwitterHttpConnectionManager implements SocialHttpConnectionManager{
 	
 	private final static String CONSUMER_KEY = (String)PropertiesReader.getProperty("CONSUMER_KEY");
