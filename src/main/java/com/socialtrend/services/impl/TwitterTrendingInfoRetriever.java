@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import com.socialtrend.config.Constants;
 import com.socialtrend.services.SocialHttpConnectionManager;
 import com.socialtrend.services.TrendingInfoRetriever;
 import com.socialtrend.utils.HttpUtils;
@@ -19,8 +20,7 @@ public class TwitterTrendingInfoRetriever extends TrendingInfoRetriever{
 //	private final static String ENDPOINT_TRENDING_TOPICS_BYPLACE = "https://api.twitter.com/1.1/trends/place.json";
 	private final static String ENDPOINT_TRENDING_TOPICNAMES_WORLDWIDE = "https://api.twitter.com/1.1/trends/place.json?id=1";
 	private final static String ENDPOINT_SEARCH_TRENDING_TOPICS = "https://api.twitter.com/1.1/search/tweets.json";
-	private final static String GET_METHOD = "GET";
-	//private final static String POST_METHOD = "POST";
+
 
 	
 	@Autowired
@@ -34,7 +34,7 @@ public class TwitterTrendingInfoRetriever extends TrendingInfoRetriever{
 		HttpURLConnection connection = null;
 		try {
 			connection = twitterHttpConnectionManager.buildHttpConnection(
-					new URL(ENDPOINT_TRENDING_TOPICNAMES_WORLDWIDE), GET_METHOD);
+					new URL(ENDPOINT_TRENDING_TOPICNAMES_WORLDWIDE), Constants.GET_METHOD);
 			String jsonResponse = HttpUtils.readResponse(connection);
 			return jsonResponse;
 
@@ -63,7 +63,7 @@ public class TwitterTrendingInfoRetriever extends TrendingInfoRetriever{
 			
 			connection = twitterHttpConnectionManager.buildHttpConnection(
 					new URL(ENDPOINT_SEARCH_TRENDING_TOPICS + "?q=" + URLEncoder.encode(topicName, "UTF-8")), 
-					GET_METHOD);
+					Constants.GET_METHOD);
 			String jsonResponse = HttpUtils.readResponse(connection);
 			return jsonResponse;
 

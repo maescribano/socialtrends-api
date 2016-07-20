@@ -21,9 +21,10 @@ import com.socialtrend.utils.HttpUtils;
 @Service
 public class TwitterHttpConnectionManager implements SocialHttpConnectionManager{
 	
-	private final static String CONSUMER_KEY = (String)PropertiesReader.getProperty("CONSUMER_KEY");
-	private final static String CONSUMER_SECRET = (String)PropertiesReader.getProperty("CONSUMER_SECRET");
-	private final static String ENDPOINT_URL_TOKEN = "https://api.twitter.com/oauth2/token";
+	private final static String CONSUMER_KEY = (String)PropertiesReader.getProperty("TWITTER_CONSUMER_KEY");
+	private final static String CONSUMER_SECRET = (String)PropertiesReader.getProperty("TWITTER_CONSUMER_SECRET");
+	private final static String ENDPOINT_URL_TOKEN = (String)PropertiesReader.getProperty("TWITTER_ENDPOINT_URL_TOKEN");
+	
 
 	protected String bearerToken;
 
