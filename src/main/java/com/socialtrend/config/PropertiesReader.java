@@ -11,7 +11,7 @@ public class PropertiesReader {
 	static{
 		//properties.load(MyClass.class.getResourceAsStream("/config.properties"));
 
-		InputStream in = PropertiesReader.class.getResourceAsStream("/twitterOauth.properties");
+		InputStream in = PropertiesReader.class.getResourceAsStream("/config.properties");
 		try {
 			properties.load(in);
 			in.close();
