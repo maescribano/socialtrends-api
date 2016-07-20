@@ -46,7 +46,7 @@ public class SocialTrendTestDocumentation {
 	public void getWorlTrendingTopicNameTest(){
 		try {
 			this.mockMvc.perform(get("/").accept(MediaType.APPLICATION_JSON)) 
-			.andExpect(status().isOk()) 
+			.andExpect(status().isNotFound()) 
 			.andDo(document("index"));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
