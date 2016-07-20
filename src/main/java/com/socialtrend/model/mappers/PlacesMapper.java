@@ -1,13 +1,5 @@
 package com.socialtrend.model.mappers;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import com.socialtrend.model.Place;
-
 public class PlacesMapper {
 	
 //	public List<Place> mapFromJsonToPlaces(final String jsonPlaces){
