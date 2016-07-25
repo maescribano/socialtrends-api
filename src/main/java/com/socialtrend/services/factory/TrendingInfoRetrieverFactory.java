@@ -1,7 +1,7 @@
 package com.socialtrend.services.factory;
 
 import com.socialtrend.services.TrendingInfoRetriever;
-import com.socialtrend.services.impl.TwitterTrendingInfoRetriever;
+import com.socialtrend.services.impl.twitter.TwitterTrendingInfoRetriever;
  
 public class TrendingInfoRetrieverFactory {
 	

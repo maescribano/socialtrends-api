@@ -4,7 +4,7 @@ import org.mockito.Mockito;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.socialtrend.services.impl.YoutubeTrendingInfoRetriever;
+import com.socialtrend.services.impl.youtube.YoutubeTrendingInfoRetriever;
 
 @Configuration
 public class BeansConfigurationTest {

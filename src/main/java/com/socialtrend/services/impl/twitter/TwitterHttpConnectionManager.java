@@ -1,4 +1,4 @@
-package com.socialtrend.services.impl;
+package com.socialtrend.services.impl.twitter;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
