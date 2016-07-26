@@ -6,6 +6,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -28,6 +29,7 @@ public class SocialTrendTestDocumentation {
 	private MockMvc mockMvc;
 
 	
+	
 	@Rule
 	public JUnitRestDocumentation restDocumentation =
 			new JUnitRestDocumentation("target/generated-snippets");
@@ -43,6 +45,7 @@ public class SocialTrendTestDocumentation {
 	}
 	
 	@Test
+	@Ignore
 	public void getWorlTrendingTopicNameTest(){
 		try {
 			this.mockMvc.perform(get("/").accept(MediaType.APPLICATION_JSON)) 

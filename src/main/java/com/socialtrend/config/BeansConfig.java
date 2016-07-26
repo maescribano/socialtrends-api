@@ -1,8 +1,6 @@
 package com.socialtrend.config;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.beust.jcommander.internal.Lists;
-import com.socialtrend.model.mappers.YoutubeTopicMapper;
 import com.socialtrend.services.TrendingInfoRetriever;
 
 @Configuration
