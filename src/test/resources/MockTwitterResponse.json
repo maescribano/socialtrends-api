@@ -1,0 +1,862 @@
+{
+	"statuses": [{
+		"created_at": "Wed Jul 27 19:44:04 +0000 2016",
+		"id": 758387498645065700,
+		"id_str": "758387498645065728",
+		"text": "RT @TodaPasion: Cristiano Ronaldo vs. hinchas del Chelsea #TodaPasion https://t.co/I2XHP09ptU",
+		"truncated": false,
+		"entities": {
+			"hashtags": [{
+				"text": "TodaPasion",
+				"indices": [
+					58,
+					69
+				]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "TodaPasion",
+				"name": "TodaPasion",
+				"id": 37831835,
+				"id_str": "37831835",
+				"indices": [
+					3,
+					14
+				]
+			}],
+			"urls": [],
+			"media": [{
+				"id": 758385738912243700,
+				"id_str": "758385738912243712",
+				"indices": [
+					70,
+					93
+				],
+				"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+				"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+				"url": "https://t.co/I2XHP09ptU",
+				"display_url": "pic.twitter.com/I2XHP09ptU",
+				"expanded_url": "http://twitter.com/TodaPasion/status/758385870986743808/video/1",
+				"type": "photo",
+				"sizes": {
+					"small": {
+						"w": 340,
+						"h": 340,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"medium": {
+						"w": 600,
+						"h": 600,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 720,
+						"h": 720,
+						"resize": "fit"
+					}
+				},
+				"source_status_id": 758385870986743800,
+				"source_status_id_str": "758385870986743808",
+				"source_user_id": 37831835,
+				"source_user_id_str": "37831835"
+			}]
+		},
+		"metadata": {
+			"iso_language_code": "es",
+			"result_type": "recent"
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 916887752,
+			"id_str": "916887752",
+			"name": "Lautaro",
+			"screen_name": "LautaroTrech",
+			"location": "Espartillar, Buenos Aires",
+			"description": "",
+			"url": "https://t.co/9T3LPA0vlh",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "https://t.co/9T3LPA0vlh",
+						"expanded_url": "https://instagram.com/lautarotrech/",
+						"display_url": "instagram.com/lautarotrech/",
+						"indices": [
+							0,
+							23
+						]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 719,
+			"friends_count": 248,
+			"listed_count": 1,
+			"created_at": "Wed Oct 31 13:27:47 +0000 2012",
+			"favourites_count": 850,
+			"utc_offset": -10800,
+			"time_zone": "Buenos Aires",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 6540,
+			"lang": "es",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "000000",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/758197739813494784/v29p9moE_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/758197739813494784/v29p9moE_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/916887752/1469603186",
+			"profile_link_color": "ABB8C2",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": null,
+			"follow_request_sent": null,
+			"notifications": null
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Wed Jul 27 19:37:36 +0000 2016",
+			"id": 758385870986743800,
+			"id_str": "758385870986743808",
+			"text": "Cristiano Ronaldo vs. hinchas del Chelsea #TodaPasion https://t.co/I2XHP09ptU",
+			"truncated": false,
+			"entities": {
+				"hashtags": [{
+					"text": "TodaPasion",
+					"indices": [
+						42,
+						53
+					]
+				}],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [{
+					"id": 758385738912243700,
+					"id_str": "758385738912243712",
+					"indices": [
+						54,
+						77
+					],
+					"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+					"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+					"url": "https://t.co/I2XHP09ptU",
+					"display_url": "pic.twitter.com/I2XHP09ptU",
+					"expanded_url": "http://twitter.com/TodaPasion/status/758385870986743808/video/1",
+					"type": "photo",
+					"sizes": {
+						"small": {
+							"w": 340,
+							"h": 340,
+							"resize": "fit"
+						},
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"medium": {
+							"w": 600,
+							"h": 600,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 720,
+							"h": 720,
+							"resize": "fit"
+						}
+					}
+				}]
+			},
+			"metadata": {
+				"iso_language_code": "es",
+				"result_type": "recent"
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 37831835,
+				"id_str": "37831835",
+				"name": "TodaPasion",
+				"screen_name": "TodaPasion",
+				"location": "Argentina",
+				"description": "Todo el deporte está acá. https://t.co/Ttr0i2oKot // https://t.co/gol7bkhdOy",
+				"url": "http://t.co/ZEBUiuEOj1",
+				"entities": {
+					"url": {
+						"urls": [{
+							"url": "http://t.co/ZEBUiuEOj1",
+							"expanded_url": "http://www.tn.com.ar/deportes",
+							"display_url": "tn.com.ar/deportes",
+							"indices": [
+								0,
+								22
+							]
+						}]
+					},
+					"description": {
+						"urls": [{
+							"url": "https://t.co/Ttr0i2oKot",
+							"expanded_url": "http://www.facebook.com/todapasion",
+							"display_url": "facebook.com/todapasion",
+							"indices": [
+								26,
+								49
+							]
+						}, {
+							"url": "https://t.co/gol7bkhdOy",
+							"expanded_url": "http://www.instagram.com/tntodapasion",
+							"display_url": "instagram.com/tntodapasion",
+							"indices": [
+								53,
+								76
+							]
+						}]
+					}
+				},
+				"protected": false,
+				"followers_count": 346097,
+				"friends_count": 215,
+				"listed_count": 819,
+				"created_at": "Tue May 05 02:18:48 +0000 2009",
+				"favourites_count": 44,
+				"utc_offset": -10800,
+				"time_zone": "Buenos Aires",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 76191,
+				"lang": "es",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "9CC43F",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/432966478053138432/ttzjmRjE.png",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/432966478053138432/ttzjmRjE.png",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/507945102279327744/NzxgVLM8_normal.png",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/507945102279327744/NzxgVLM8_normal.png",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/37831835/1398346037",
+				"profile_link_color": "447504",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "B3E671",
+				"profile_text_color": "050505",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 42,
+			"favorite_count": 58,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "es"
+		},
+		"is_quote_status": false,
+		"retweet_count": 42,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "es"
+	}, {
+		"created_at": "Wed Jul 27 19:44:02 +0000 2016",
+		"id": 758387488847175700,
+		"id_str": "758387488847175680",
+		"text": "RT @TodaPasion: Cristiano Ronaldo vs. hinchas del Chelsea #TodaPasion https://t.co/I2XHP09ptU",
+		"truncated": false,
+		"entities": {
+			"hashtags": [{
+				"text": "TodaPasion",
+				"indices": [
+					58,
+					69
+				]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "TodaPasion",
+				"name": "TodaPasion",
+				"id": 37831835,
+				"id_str": "37831835",
+				"indices": [
+					3,
+					14
+				]
+			}],
+			"urls": [],
+			"media": [{
+				"id": 758385738912243700,
+				"id_str": "758385738912243712",
+				"indices": [
+					70,
+					93
+				],
+				"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+				"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+				"url": "https://t.co/I2XHP09ptU",
+				"display_url": "pic.twitter.com/I2XHP09ptU",
+				"expanded_url": "http://twitter.com/TodaPasion/status/758385870986743808/video/1",
+				"type": "photo",
+				"sizes": {
+					"small": {
+						"w": 340,
+						"h": 340,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"medium": {
+						"w": 600,
+						"h": 600,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 720,
+						"h": 720,
+						"resize": "fit"
+					}
+				},
+				"source_status_id": 758385870986743800,
+				"source_status_id_str": "758385870986743808",
+				"source_user_id": 37831835,
+				"source_user_id_str": "37831835"
+			}]
+		},
+		"metadata": {
+			"iso_language_code": "es",
+			"result_type": "recent"
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 362574368,
+			"id_str": "362574368",
+			"name": "MA7IAS",
+			"screen_name": "matiasedlp",
+			"location": "",
+			"description": "Futuro Contador \n                                         Pincha y Bilardista",
+			"url": "https://t.co/g61SzSUyLE",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "https://t.co/g61SzSUyLE",
+						"expanded_url": "https://instagram.com/matiasvel9/",
+						"display_url": "instagram.com/matiasvel9/",
+						"indices": [
+							0,
+							23
+						]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 243,
+			"friends_count": 231,
+			"listed_count": 0,
+			"created_at": "Fri Aug 26 16:37:35 +0000 2011",
+			"favourites_count": 688,
+			"utc_offset": -10800,
+			"time_zone": "Santiago",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 3643,
+			"lang": "es",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "446B46",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/319711143/estudiantes_campeon29.jpg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/319711143/estudiantes_campeon29.jpg",
+			"profile_background_tile": true,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/736746927451197442/qwEQ8hvx_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/736746927451197442/qwEQ8hvx_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/362574368/1464573858",
+			"profile_link_color": "DE1111",
+			"profile_sidebar_border_color": "0E0F0F",
+			"profile_sidebar_fill_color": "FFFFFF",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": null,
+			"follow_request_sent": null,
+			"notifications": null
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Wed Jul 27 19:37:36 +0000 2016",
+			"id": 758385870986743800,
+			"id_str": "758385870986743808",
+			"text": "Cristiano Ronaldo vs. hinchas del Chelsea #TodaPasion https://t.co/I2XHP09ptU",
+			"truncated": false,
+			"entities": {
+				"hashtags": [{
+					"text": "TodaPasion",
+					"indices": [
+						42,
+						53
+					]
+				}],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [{
+					"id": 758385738912243700,
+					"id_str": "758385738912243712",
+					"indices": [
+						54,
+						77
+					],
+					"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+					"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/758385738912243712/pu/img/_ciPQs_zN24jCjwQ.jpg",
+					"url": "https://t.co/I2XHP09ptU",
+					"display_url": "pic.twitter.com/I2XHP09ptU",
+					"expanded_url": "http://twitter.com/TodaPasion/status/758385870986743808/video/1",
+					"type": "photo",
+					"sizes": {
+						"small": {
+							"w": 340,
+							"h": 340,
+							"resize": "fit"
+						},
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"medium": {
+							"w": 600,
+							"h": 600,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 720,
+							"h": 720,
+							"resize": "fit"
+						}
+					}
+				}]
+			},
+			"metadata": {
+				"iso_language_code": "es",
+				"result_type": "recent"
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 37831835,
+				"id_str": "37831835",
+				"name": "TodaPasion",
+				"screen_name": "TodaPasion",
+				"location": "Argentina",
+				"description": "Todo el deporte está acá. https://t.co/Ttr0i2oKot // https://t.co/gol7bkhdOy",
+				"url": "http://t.co/ZEBUiuEOj1",
+				"entities": {
+					"url": {
+						"urls": [{
+							"url": "http://t.co/ZEBUiuEOj1",
+							"expanded_url": "http://www.tn.com.ar/deportes",
+							"display_url": "tn.com.ar/deportes",
+							"indices": [
+								0,
+								22
+							]
+						}]
+					},
+					"description": {
+						"urls": [{
+							"url": "https://t.co/Ttr0i2oKot",
+							"expanded_url": "http://www.facebook.com/todapasion",
+							"display_url": "facebook.com/todapasion",
+							"indices": [
+								26,
+								49
+							]
+						}, {
+							"url": "https://t.co/gol7bkhdOy",
+							"expanded_url": "http://www.instagram.com/tntodapasion",
+							"display_url": "instagram.com/tntodapasion",
+							"indices": [
+								53,
+								76
+							]
+						}]
+					}
+				},
+				"protected": false,
+				"followers_count": 346097,
+				"friends_count": 215,
+				"listed_count": 819,
+				"created_at": "Tue May 05 02:18:48 +0000 2009",
+				"favourites_count": 44,
+				"utc_offset": -10800,
+				"time_zone": "Buenos Aires",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 76191,
+				"lang": "es",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "9CC43F",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/432966478053138432/ttzjmRjE.png",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/432966478053138432/ttzjmRjE.png",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/507945102279327744/NzxgVLM8_normal.png",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/507945102279327744/NzxgVLM8_normal.png",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/37831835/1398346037",
+				"profile_link_color": "447504",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "B3E671",
+				"profile_text_color": "050505",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 42,
+			"favorite_count": 58,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "es"
+		},
+		"is_quote_status": false,
+		"retweet_count": 42,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "es"
+	}, {
+		"created_at": "Wed Jul 27 19:44:00 +0000 2016",
+		"id": 758387480639004700,
+		"id_str": "758387480639004673",
+		"text": "RT @Footy_Jokes: Cristiano Ronaldo's hometown.\n\nNamed an airport after him ✅\nDedicated a museum to him ✅\nBuilt a statue of him ✅ https://t.…",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "Footy_Jokes",
+				"name": "Footy Jokes",
+				"id": 370536393,
+				"id_str": "370536393",
+				"indices": [
+					3,
+					15
+				]
+			}],
+			"urls": [],
+			"media": [{
+				"id": 758380438159290400,
+				"id_str": "758380438159290368",
+				"indices": [
+					139,
+					140
+				],
+				"media_url": "http://pbs.twimg.com/media/CoZO_Y0W8AA_9_8.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/CoZO_Y0W8AA_9_8.jpg",
+				"url": "https://t.co/QpZypzLueS",
+				"display_url": "pic.twitter.com/QpZypzLueS",
+				"expanded_url": "http://twitter.com/Footy_Jokes/status/758380443163131905/photo/1",
+				"type": "photo",
+				"sizes": {
+					"medium": {
+						"w": 450,
+						"h": 338,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 450,
+						"h": 338,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 450,
+						"h": 338,
+						"resize": "fit"
+					}
+				},
+				"source_status_id": 758380443163131900,
+				"source_status_id_str": "758380443163131905",
+				"source_user_id": 370536393,
+				"source_user_id_str": "370536393"
+			}]
+		},
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 1722272682,
+			"id_str": "1722272682",
+			"name": "nana quophy",
+			"screen_name": "nanaquophy30",
+			"location": "",
+			"description": "",
+			"url": null,
+			"entities": {
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 39,
+			"friends_count": 208,
+			"listed_count": 1,
+			"created_at": "Mon Sep 02 13:12:13 +0000 2013",
+			"favourites_count": 4,
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 1073,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/686857255900327936/Hc_ItuDM_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/686857255900327936/Hc_ItuDM_normal.jpg",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": null,
+			"follow_request_sent": null,
+			"notifications": null
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Wed Jul 27 19:16:02 +0000 2016",
+			"id": 758380443163131900,
+			"id_str": "758380443163131905",
+			"text": "Cristiano Ronaldo's hometown.\n\nNamed an airport after him ✅\nDedicated a museum to him ✅\nBuilt a statue of him ✅ https://t.co/QpZypzLueS",
+			"truncated": false,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [{
+					"id": 758380438159290400,
+					"id_str": "758380438159290368",
+					"indices": [
+						112,
+						135
+					],
+					"media_url": "http://pbs.twimg.com/media/CoZO_Y0W8AA_9_8.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/CoZO_Y0W8AA_9_8.jpg",
+					"url": "https://t.co/QpZypzLueS",
+					"display_url": "pic.twitter.com/QpZypzLueS",
+					"expanded_url": "http://twitter.com/Footy_Jokes/status/758380443163131905/photo/1",
+					"type": "photo",
+					"sizes": {
+						"medium": {
+							"w": 450,
+							"h": 338,
+							"resize": "fit"
+						},
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 450,
+							"h": 338,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 450,
+							"h": 338,
+							"resize": "fit"
+						}
+					}
+				}]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 370536393,
+				"id_str": "370536393",
+				"name": "Footy Jokes",
+				"screen_name": "Footy_Jokes",
+				"location": "Worldwide",
+				"description": "Jokes \nTrolls\nMemes \nFacts\nVideos\nQuotes and more football\n\nWe don't claim copyright of any video or picture.\n\nAdvertising Contact: footyjokesglobal@gmail.com",
+				"url": "https://t.co/QkdvywTnuu",
+				"entities": {
+					"url": {
+						"urls": [{
+							"url": "https://t.co/QkdvywTnuu",
+							"expanded_url": "http://FootyJokes.net",
+							"display_url": "FootyJokes.net",
+							"indices": [
+								0,
+								23
+							]
+						}]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 1022611,
+				"friends_count": 342,
+				"listed_count": 4122,
+				"created_at": "Fri Sep 09 05:52:16 +0000 2011",
+				"favourites_count": 3968,
+				"utc_offset": 19800,
+				"time_zone": "Mumbai",
+				"geo_enabled": true,
+				"verified": false,
+				"statuses_count": 31249,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/574230662602883072/ggXZMuas.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/574230662602883072/ggXZMuas.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/583839235091763200/ugtlD-78_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/583839235091763200/ugtlD-78_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/370536393/1428033094",
+				"profile_link_color": "981CEB",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 170,
+			"favorite_count": 166,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 170,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}],
+	"search_metadata": {
+		"completed_in": 0.05,
+		"max_id": 758387498645065700,
+		"max_id_str": "758387498645065728",
+		"next_results": "?max_id=758387426423431168&q=cristiano%20ronaldo&include_entities=1",
+		"query": "cristiano+ronaldo",
+		"refresh_url": "?since_id=758387498645065728&q=cristiano%20ronaldo&include_entities=1",
+		"count": 15,
+		"since_id": 0,
+		"since_id_str": "0"
+	}
+}
