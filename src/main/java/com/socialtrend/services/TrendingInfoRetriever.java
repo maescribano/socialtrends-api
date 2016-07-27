@@ -17,7 +17,7 @@ public abstract class TrendingInfoRetriever {
 	public abstract String getTrendingTopicNameByPlace(String place);
 	public abstract List<Topic> getTrendingTopics(String topicName);
 	
-	
+	//TODO: Este metodo launchRequestAndReturnResponse deberia ser responsabilidad del SocialHttpConnectionManager. Cambiar.
 	public String  launchRequestAndReturnResponse(String url, String method, SocialHttpConnectionManager connector){
 		HttpURLConnection connection = null;
 		try {
