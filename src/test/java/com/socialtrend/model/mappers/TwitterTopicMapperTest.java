@@ -41,7 +41,7 @@ public class TwitterTopicMapperTest {
 
 	@Test
 	public void simpleJsonObjectMapperTest(){
-		final JsonObject firstTwitterTopic = simpleJsonObjectMock.get("statuses").getAsJsonArray().get(0).getAsJsonObject();
+		final JsonObject firstTwitterTopic = simpleJsonObjectMock.get("statuses").getAsJsonArray().get(5).getAsJsonObject();
 		Topic twitterTopic = twitterTopicMapper.map(firstTwitterTopic);
 		
 		assertTrue(firstTwitterTopic.get("text").getAsString().equals(twitterTopic.getDescription()));
@@ -56,10 +56,16 @@ public class TwitterTopicMapperTest {
 	public void JsonObjectCollectionMapperTest(){
 		final JsonArray jsonTwitterTopics = simpleJsonObjectMock.get("statuses").getAsJsonArray();
 		List<Topic> twitterTopics = twitterTopicMapper.map(jsonTwitterTopics);		
-
+		
+		final String showContentUrl = "https://twitter.com/"+jsonTwitterTopics.get(0).getAsJsonObject().get("user").getAsJsonObject().get("screen_name").getAsString()+"/status/"+jsonTwitterTopics.get(0).getAsJsonObject().get("id").getAsString();
+		final String peviewImageUrl = jsonTwitterTopics.get(0).getAsJsonObject().get("entities").getAsJsonObject().get("media") != null && 
+				jsonTwitterTopics.get(0).getAsJsonObject().get("entities").getAsJsonObject().get("media").getAsJsonArray().get(0).getAsJsonObject().get("media_url") != null  ? 
+						jsonTwitterTopics.get(0).getAsJsonObject().get("entities").getAsJsonObject().get("media").getAsJsonArray().get(0).getAsJsonObject().get("media_url").getAsString() : 
+						"";
+		
 		assertTrue((jsonTwitterTopics.get(0).getAsJsonObject().get("text").getAsString().equals(twitterTopics.get(0).getDescription())));
-		assertTrue((jsonTwitterTopics.get(0).getAsJsonObject().get("entities").getAsJsonObject().get("media").getAsJsonArray().get(0).getAsJsonObject().get("media_url").getAsString().equals(twitterTopics.get(0).getPreviewImageUrl())));
-		assertTrue(jsonTwitterTopics.get(0).getAsJsonObject().get("entities").getAsJsonObject().get("media").getAsJsonArray().get(0).getAsJsonObject().get("url").getAsString().equals(twitterTopics.get(0).getShowContentUrl()));
+		assertTrue(peviewImageUrl.equals(twitterTopics.get(0).getPreviewImageUrl()));
+		assertTrue(showContentUrl.equals(twitterTopics.get(0).getShowContentUrl()));
 		assertTrue(jsonTwitterTopics.get(0).getAsJsonObject().get("text").getAsString().equals(twitterTopics.get(0).getTitle()));
 	}
 
