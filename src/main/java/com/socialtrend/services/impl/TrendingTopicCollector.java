@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.stereotype.Service;
 
-import com.beust.jcommander.Strings;
+import com.socialtrend.config.Constants;
 import com.socialtrend.model.Topic;
 import com.socialtrend.services.TrendingInfoRetriever;
 import com.socialtrend.services.impl.twitter.TwitterTrendingInfoRetriever;
 
+@Service
 public class TrendingTopicCollector {
 	
 	@Autowired
@@ -22,50 +22,47 @@ public class TrendingTopicCollector {
 	@Autowired
 	private TwitterTrendingInfoRetriever trendingTopicNamesRetriever;
 	
-	public List<Topic> getTrendingTopics(List<String> socialNets){
+	public List<Topic> getTrendingTopics(List<String> socialNets, String type, String place){
 		//TODO
 		//final List<String> trendingTopicNames = ...
 		// De moment solo con un trendingTopicName, el mas trendy
-	
-		final List<String> trendingTopicNames = new ArrayList<>();
-		trendingTopicNames.add("#cristianoronaldo");
-		final List <Topic> trendingTopics = new ArrayList<>();
 		
+		final List<String> trendingTopicNames = new ArrayList<>();		
+		final String currentTrendingTopicOnTwitter = getCurrentTrendingTopicDependsOnTypeAndPlace(type, place);
+
+		trendingTopicNames.add(currentTrendingTopicOnTwitter);
+		return getTrendingTopicsOnSocialNets(socialNets, trendingTopicNames);
+		
+	}
+
+	protected List<Topic> getTrendingTopicsOnSocialNets(List<String> socialNets, final List<String> trendingTopicNames) {
+		final List <Topic> trendingTopics = new ArrayList<>();
 		for (String topicName : trendingTopicNames) {
 			for (String socialNet : socialNets) {
-				trendingTopics.addAll(socialRetrievers.get(socialNet).getTrendingTopics(topicName));
+				final String retriverName = socialNet.concat(Constants.TRENDING_INFO_RETRIEVER_SUFIX_ID);
+				trendingTopics.addAll(socialRetrievers.get(retriverName).getTrendingTopics(topicName));
 			}
 		}
-		
 		return trendingTopics;
-		
-//		for (String name : trendingTopicNames) {			
-//			Topic topic = new Topic();
-//			trendingTopics.add(topic);
-//		}
+	}
+
+	protected String getCurrentTrendingTopicDependsOnTypeAndPlace(String type, String place) {
+		return Constants.TP_CLOSEST_REQUEST_TYPE.equalsIgnoreCase(type) ?  trendingTopicNamesRetriever.getClosestTrendingTopicName() :
+			Constants.TP_WORLD_REQUEST_TYPE.equalsIgnoreCase(type) ? trendingTopicNamesRetriever.getWorldTrendingTopicName() :
+			StringUtils.isNotEmpty(place) ? trendingTopicNamesRetriever.getTrendingTopicNameByPlace(place) :
+			trendingTopicNamesRetriever.getWorldTrendingTopicName();
 	}
 	
 	public String getClosestTrendingTopicName(){
-		return "";
+		return trendingTopicNamesRetriever.getClosestTrendingTopicName();
 	}
 	
 	public String getWorldTrendingTopicName(){
-		return "";
+		return trendingTopicNamesRetriever.getWorldTrendingTopicName();
 	}
 	
 	public String getTrendingTopicNameByPlace(String place){
-		return "";
+		return trendingTopicNamesRetriever.getTrendingTopicNameByPlace(place);
 	}
-//	etTrendingTopics("#WeLoveYouNiall");
-//}
-//
-//@RequestMapping(path="/trendingtopicname/{type}")
-//public String getTrendingTopicName(
-//		@PathVariable(value="type") String type,
-//		@RequestParam(value="place", required=false) String place){		
-//	return 
-//		TP_CLOSEST_REQUEST_TYPE.equalsIgnoreCase(type) ?  trendingTopicCollector.getClosestTrendingTopicName() :
-//		TP_WORLD_REQUEST_TYPE.equalsIgnoreCase(type) ? trendingTopicCollector.getWorldTrendingTopicName() :
-//			trendingTopicCollector.getTrendingTopicNameByPlace(place);
-	
+
 }
