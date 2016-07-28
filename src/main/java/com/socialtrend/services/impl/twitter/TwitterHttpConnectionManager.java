@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.json.JSONObject;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Base64Utils;
 
@@ -19,7 +18,7 @@ import com.socialtrend.services.SocialHttpConnectionManager;
 import com.socialtrend.utils.HttpUtils;
 
 @Service
-public class TwitterHttpConnectionManager implements SocialHttpConnectionManager{
+public class TwitterHttpConnectionManager extends SocialHttpConnectionManager{
 	
 	private final static String CONSUMER_KEY = (String)PropertiesReader.getProperty("TWITTER_CONSUMER_KEY");
 	private final static String CONSUMER_SECRET = (String)PropertiesReader.getProperty("TWITTER_CONSUMER_SECRET");

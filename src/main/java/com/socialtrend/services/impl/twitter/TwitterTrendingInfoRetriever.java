@@ -4,7 +4,6 @@ import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +21,6 @@ import com.socialtrend.utils.HttpUtils;
 
 @Service
 public class TwitterTrendingInfoRetriever extends TrendingInfoRetriever{
-
-	//	private final static String ENDPOINT_AVAILABLE_TRENDING_PLACES = "https://api.twitter.com/1.1/trends/available.json";
-	//	private final static String ENDPOINT_TRENDING_TOPICS_BYPLACE = "https://api.twitter.com/1.1/trends/place.json";
 
 	@Autowired
 	private SocialHttpConnectionManager twitterHttpConnectionManager;
@@ -66,8 +62,6 @@ public class TwitterTrendingInfoRetriever extends TrendingInfoRetriever{
 	}
 	//TODO : return list<Topic>
 	public List<Topic> getTrendingTopics(String topicName) {
-		HttpURLConnection connection = null;
-		final List<Topic> trendingTopics = new ArrayList<>();
 		String requestUrl;
 		try {
 			requestUrl = Constants.ENDPOINT_SEARCH_TRENDING_TOPICS + "?q=" + URLEncoder.encode(topicName, "UTF-8");
@@ -76,7 +70,7 @@ public class TwitterTrendingInfoRetriever extends TrendingInfoRetriever{
 			e.printStackTrace();
 		}
 		//TODO: Este metodo launchRequestAndReturnResponse deberia ser responsabilidad del SocialHttpConnectionManager. Cambiar.
-		final String jsonResponse = launchRequestAndReturnResponse(requestUrl, Constants.GET_METHOD, twitterHttpConnectionManager);
+		final String jsonResponse = twitterHttpConnectionManager.launchRequestAndReturnJsonResponse(requestUrl, Constants.GET_METHOD);
 
 		return parseResponseAndBuildTopicCollection(jsonResponse);
 	}

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import com.socialtrend.services.SocialHttpConnectionManager;
 
 @Service
-public class YoutubeHttpConnectionManager implements SocialHttpConnectionManager {
+public class YoutubeHttpConnectionManager extends SocialHttpConnectionManager {
 
 	protected String bearerToken;
 	

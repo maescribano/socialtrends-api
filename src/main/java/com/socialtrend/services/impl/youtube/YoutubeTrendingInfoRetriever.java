@@ -59,8 +59,7 @@ public class YoutubeTrendingInfoRetriever extends TrendingInfoRetriever {
 			requestUrl = "";
 			e.printStackTrace();
 		}
-		//TODO: Este metodo launchRequestAndReturnResponse deberia ser responsabilidad del SocialHttpConnectionManager. Cambiar.
-		final String jsonResponse = launchRequestAndReturnResponse(requestUrl, Constants.GET_METHOD, youtubeHttpConnectionManager);
+		final String jsonResponse = youtubeHttpConnectionManager.launchRequestAndReturnJsonResponse(requestUrl, Constants.GET_METHOD);
 		return parseResponseAndBuildTopicCollection(jsonResponse);
 	}
 
