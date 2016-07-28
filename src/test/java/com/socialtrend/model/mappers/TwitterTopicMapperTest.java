@@ -35,7 +35,7 @@ public class TwitterTopicMapperTest {
 	@Before
 	public void init() throws FileNotFoundException {
 		jsonParser = new JsonParser();
-		JsonReader jsonReader = new JsonReader(new FileReader("src/test/resources/MockTwitterResponse.json"));
+		jsonReader = new JsonReader(new FileReader("src/test/resources/MockTwitterResponse.json"));
 		simpleJsonObjectMock = jsonParser.parse(jsonReader).getAsJsonObject();
 	}
 
